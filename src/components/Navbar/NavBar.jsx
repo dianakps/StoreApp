@@ -27,7 +27,7 @@ function NavBar({ toggleVisibility }) {
 
   return (
     <>
-      <AppBar>
+      <AppBar sx={{ backgroundColor: "#dfc1a8" }}>
         <Container
           maxWidth="xl"
           className="navbar"
